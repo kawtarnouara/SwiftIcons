@@ -225,7 +225,7 @@ public extension UIButton {
         let attributedText = getAttributedString(prefixText: prefixText, prefixTextColor: prefixTextColor, prefixTextFont: prefixTextFont, icons: icons, iconsSize: iconsSize, iconsColor: iconsColor, postfixText: postfixText, postfixTextColor: postfixTextColor, postfixTextFont: postfixTextFont)
         self.setAttributedTitle(attributedText, for: state)
         titleLabel.textAlignment = .center
-        self.backgroundColor = bgColor
+        self.setBackgroundColor(color: bgColor, for: state)
     }
     
     public func setIcons(prefixText: String? = nil, prefixTextFont: UIFont? = nil, prefixTextColor: UIColor? = nil, icons: [FontType], iconColor: UIColor? = nil, postfixText: String? = nil, postfixTextFont: UIFont? = nil, postfixTextColor: UIColor? = nil, iconSize: CGFloat? = nil, bgColor: UIColor? = nil, forState state: UIControl.State) {
@@ -398,6 +398,19 @@ public extension UIButton {
     public func setIcon(icon: FontType, title: String, font: UIFont, color: UIColor = .black, backgroundColor: UIColor = .clear, borderSize: CGFloat = 1, borderColor: UIColor = .clear, forState state: UIControl.State) {
         
         setIcon(icon: icon, iconColor: color, title: title, titleColor: color, font: font, backgroundColor: backgroundColor, borderSize: borderSize, borderColor: borderColor, forState: state)
+    }
+    
+    
+    func setBackgroundColor(color: UIColor, for state: UIControl.State) {
+        self.clipsToBounds = true  // add this to maintain corner radius
+        UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
+        if let context = UIGraphicsGetCurrentContext() {
+            context.setFillColor(color.cgColor)
+            context.fill(CGRect(x: 0, y: 0, width: 1, height: 1))
+            let colorImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            self.setBackgroundImage(colorImage, for: state)
+        }
     }
 }
 
