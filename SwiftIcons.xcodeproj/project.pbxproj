@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B13FC122DC822F0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC022DC822E0034F8E6 /* icomoon.ttf */; };
-		04B13FC222DC822F0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC022DC822E0034F8E6 /* icomoon.ttf */; };
-		04B13FC322DC822F0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC022DC822E0034F8E6 /* icomoon.ttf */; };
+		04B13FC522DC871A0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC422DC871A0034F8E6 /* icomoon.ttf */; };
+		04B13FC622DC871A0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC422DC871A0034F8E6 /* icomoon.ttf */; };
+		04B13FC722DC871A0034F8E6 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B13FC422DC871A0034F8E6 /* icomoon.ttf */; };
 		05E50F82213EA67C007FEB78 /* TypIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05E50F81213EA67C007FEB78 /* TypIcons.ttf */; };
 		4389E5E020FE8E4400175651 /* SwiftIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4389E5D920FE8E4400175651 /* SwiftIcons.framework */; };
 		4389E5E120FE8E4400175651 /* SwiftIcons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4389E5D920FE8E4400175651 /* SwiftIcons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -80,7 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04B13FC022DC822E0034F8E6 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = ../../../../Downloads/icomoon/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		04B13FC422DC871A0034F8E6 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
 		05E50F81213EA67C007FEB78 /* TypIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TypIcons.ttf; sourceTree = "<group>"; };
 		4389E5D920FE8E4400175651 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4389E5E720FE8FCB00175651 /* SwiftIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftIcons.h; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		4389E5E820FE8FCB00175651 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				04B13FC022DC822E0034F8E6 /* icomoon.ttf */,
+				04B13FC422DC871A0034F8E6 /* icomoon.ttf */,
 				4389E5E920FE8FCB00175651 /* Icofont.ttf */,
 				4389E5EA20FE8FCB00175651 /* MapIcons.ttf */,
 				4389E5EB20FE8FCB00175651 /* Dripicons.ttf */,
@@ -392,7 +392,7 @@
 				4389E61120FE91D400175651 /* FontAwesome.ttf in Resources */,
 				4389E61020FE91D400175651 /* Ionicons.ttf in Resources */,
 				4389E60E20FE91D400175651 /* FontAwesomeSolid.ttf in Resources */,
-				04B13FC322DC822F0034F8E6 /* icomoon.ttf in Resources */,
+				04B13FC722DC871A0034F8E6 /* icomoon.ttf in Resources */,
 				4389E60F20FE91D400175651 /* WeatherIcons.ttf in Resources */,
 				4389E61520FE91D400175651 /* Emoji.ttf in Resources */,
 				4389E60A20FE91D400175651 /* Icofont.ttf in Resources */,
@@ -405,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A605C13E1E37A9EF0079765A /* LaunchScreen.storyboard in Resources */,
-				04B13FC122DC822F0034F8E6 /* icomoon.ttf in Resources */,
+				04B13FC522DC871A0034F8E6 /* icomoon.ttf in Resources */,
 				A605C13B1E37A9EF0079765A /* Assets.xcassets in Resources */,
 				A67D28A51E42445F005765A0 /* LICENSE in Resources */,
 				A6945A3B1E8D406B004AA743 /* .swift-version in Resources */,
@@ -418,7 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B13FC222DC822F0034F8E6 /* icomoon.ttf in Resources */,
+				04B13FC622DC871A0034F8E6 /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
