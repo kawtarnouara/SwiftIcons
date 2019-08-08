@@ -123,7 +123,7 @@
 		A6945A3A1E8D406B004AA743 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
 		A6BD3B5A1EA154D100F2CF09 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		A6DDCFA51E40E4A600191F5C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = resources/logo.png; sourceTree = "<group>"; };
-		F908D20122F82DE900B4DEB7 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		F908D21922FC639200B4DEB7 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = "../../../../Desktop/icomoon (3)/fonts/icomoon.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +166,11 @@
 		4389E5E820FE8FCB00175651 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				F908D20122F82DE900B4DEB7 /* icomoon.ttf */,
 				4389E5E920FE8FCB00175651 /* Icofont.ttf */,
 				4389E5EA20FE8FCB00175651 /* MapIcons.ttf */,
 				4389E5EB20FE8FCB00175651 /* Dripicons.ttf */,
 				4389E5EC20FE8FCB00175651 /* OpenIconic.ttf */,
+				F908D21922FC639200B4DEB7 /* icomoon.ttf */,
 				4389E5ED20FE8FCB00175651 /* FontAwesomeSolid.ttf */,
 				4389E5EE20FE8FCB00175651 /* WeatherIcons.ttf */,
 				4389E5EF20FE8FCB00175651 /* Ionicons.ttf */,
